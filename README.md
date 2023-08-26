@@ -1,7 +1,4 @@
-# Machine-learning-housePricing
-This a Project of projection of housing price, using the Linear Regression.
-
-# Linear Regression with Custom Train-Test Split
+# Housing Price Prediction using Linear Regression
 
 This repository contains a Python implementation of linear regression with a custom train-test split function. This code aims to demonstrate how to perform linear regression using gradient descent, split the dataset into training and test sets, and evaluate the model's performance using the R-squared score.
 
@@ -21,14 +18,14 @@ The custom train-test split function splits the dataset into training and test s
 
 1. Clone the repository:
    git clone https://github.com/yourusername/linear-regression-custom-split.git
-  cd linear-regression-custom-split
+   cd linear-regression-custom-split
 
 2. Place your dataset file `housing.csv` in the root directory.
 
 3. Run the `housingPrediction.py` script using a Python interpreter:
    python linear_regression_custom_split.py
 
-4. The script will perform linear regression on the training set, make predictions on both the training and test sets, and calculate R-squared scores for evaluation.
+4. The script will perform linear regression on the training set, make predictions on both the training and test sets and calculate R-squared scores for evaluation.
 
 ## Dependencies
 
